@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/joyway/module_6_part3-transactions:bae4217502fa67c4987ee0e5d9246054e170847e
+          image: ghcr.io/joyway/module_6_part3-transactions:0998d9d5c86a9d3df3b0e7ec04d536bd205fa937
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
