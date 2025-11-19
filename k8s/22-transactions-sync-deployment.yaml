@@ -18,7 +18,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: syncer
-          image: ghcr.io/joyway/module_6_part3-syncer:32435537f8bda51291623dae12eba2ae4c31e0de
+          image: ghcr.io/joyway/module_6_part3-syncer:bae4217502fa67c4987ee0e5d9246054e170847e
           env:
             - name: SRC_URI
               value: mongodb://mongo-backend:27017

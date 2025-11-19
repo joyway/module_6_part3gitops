@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/joyway/module_6_part3-backend:32435537f8bda51291623dae12eba2ae4c31e0de
+          image: ghcr.io/joyway/module_6_part3-backend:bae4217502fa67c4987ee0e5d9246054e170847e
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
